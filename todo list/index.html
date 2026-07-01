@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+    <h1>Todo List</h1>
+
+    <div class="profile">
+        Vikas
+    </div>
+</nav>
+
+<main>
+
+    <section class="hero">
+
+        <h2>Stay Organized</h2>
+
+        <p>Manage your daily tasks efficiently.</p>
+
+    </section>
+
+    <section class="input-section">
+
+        <input
+        id="taskInput"
+        type="text"
+        placeholder="What needs to be done?"
+        >
+
+        <button id="addBtn"> + </button>
+
+    </section>
+
+    <section class="tasks">
+        <h3>Today's Tasks</h3>
+        <div id="taskContainer">
+            <!-- Temporary Card -->
+            <div class="task-card">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Learn React</span>
+
+                <div class="actions">
+                    
+                    <button class="edit-btn">✏️</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
